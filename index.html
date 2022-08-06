@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">Formulario de Inscripción </div>
+
+
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Nombres:</span>
+                    <input type="text" placeholder="Ingrese sus Nombres">
+                </div>
+                <div class="input-box">
+                    <span class="details">Apellidos:</span>
+                    <input type="text" placeholder="Ingrese sus Apellidos">
+                </div>
+                <div class="input-box">
+                    <span class="details">DPI</span>
+                    <input type="number" min="0" placeholder="Ingrese su DPI">
+                </div>
+                <div class="input-box">
+                    <span class="details">Fecha Nacimiento:</span>
+                    <input type="date" id="start" name="trip-start" min="1980-01-01" max="2025-12-31">
+                </div>
+                
+                <div class="input-box">
+                    <span class="details">Email:</span>
+                    <input type="email" placeholder="Ingrese su Correo">
+                </div>
+                <div class="input-box">
+                    <span class="details">Dirección:</span>
+                    <input type="text" placeholder="Ingrese su Dirección">
+                </div>
+                <div class="input-box">
+                    <span class="details">Teléfono:</span>
+                    <input type="number" placeholder="Ingrese su Teléfono">
+                </div>
+            </div>
+
+            <div class="gender-details">
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                <input type="radio" name="gender" id="dot-3">
+
+                <span class="gender-title">Genero:</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender"> Masculino</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="gender"> Femenino</span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot three"></span>
+                        <span class="gender"> Prefiero no decirlo</span>
+                    </label>
+                </div>
+
+            </div>
+
+            <form>
+                <a class="button" href="https://mynorchavarria.netlify.app/">
+                <input type="button" value="Registrar"></input>
+            </form>
+        
+        </form>
+
+    </div>
+    </div>
+</body>
+
+</html>
